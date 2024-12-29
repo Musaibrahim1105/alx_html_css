@@ -10,9 +10,7 @@ nav img {
   margin-top: 20px;
 }
 
-#nav ul{
-  
-}
+
 
 .membership div {
   background-color: black;
@@ -22,4 +20,9 @@ nav img {
 
 .membership h3 {
   color: white;
+}
+
+.popular {
+  display: flex;
+  flex-direction: row;
 }
