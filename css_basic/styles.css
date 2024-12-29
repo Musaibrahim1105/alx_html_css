@@ -1,25 +1,25 @@
 body {
+
+  background-image: url("Object.png");
+  background-repeat: no-repeat;
+}
+
+nav img {
+  float: left;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+#nav ul{
+  
+}
+
+.membership div {
+  background-color: black;
   display: flex;
-  flex-direction: column; 
+  flex-direction: row;
 }
 
-main {
-  display: flex;
-  flex-direction:row;
-  flex: auto;
-}
-
-main #article {
-  flex:2;
-  overflow-y: auto;
-}
-
-main #aside {
-  flex:1;
-  overflow-y: auto;
-}
-
-h1 {
-  font-weight: bold;
-  color: red; 
+.membership h3 {
+  color: white;
 }
