@@ -2,6 +2,9 @@ body {
 
   background-image: url("Object.png");
   background-repeat: no-repeat;
+  color: white;
+  width: auto;
+ 
 }
 
 nav img {
@@ -10,19 +13,168 @@ nav img {
   margin-top: 20px;
 }
 
-
-
-.membership div {
-  background-color: black;
-  display: flex;
-  flex-direction: row;
-}
-
-.membership h3 {
+.button {
   color: white;
+  background-color: rgb(235, 31, 204);
+  padding: 10px;
+  border-radius: 30px;
+  margin-left: 100px;
+  display: block;
+  border: none;
+ 
 }
 
-.popular {
+nav ul{
+  text-align: right;
+}
+
+
+
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  gap: 10px;
+  
+}
+
+li a{
+  text-decoration: none;
+  color: aliceblue;
+  width: 80px;
+  display: block;
+  padding: 25px 25px;
+  font-weight: bold;
+  text-align: end;
+  
+}
+
+.nav a :hover{
+  background: rgb(235, 31, 204);
+ 
+}
+
+
+section #schooled{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  
+}
+
+section div h1 {
+  font-size: 65px;
+  transform: scale(2, 2);
+  margin-left: 70px;
+  margin-top: 150px;
+  color:white;
+ 
+}
+
+.span {
+ display: flex;
+ flex-direction: row;
+ gap: 40px;
+ margin-top: 5px;
+ margin-left: 100px;
+ margin-bottom: 40px;
+}
+
+.learn{
+  text-align: center;
+  font-size: 15px;
+  margin-top: 150px;
+  margin-left: 100px;
+  transform: scale(2, 2);
+}
+
+
+
+.people{
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 90px;
+  margin-bottom: 240px;
+  margin-top: 50px;
+
 }
+
+.peopleimg {
+  width: 150px;
+  height: 100px;
+}
+.person{
+  background-color:  rgb(235, 31, 204);
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 0;
+  
+}
+
+.qoute {
+  text-align: start;
+}
+
+#tutorials .popular {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end ;
+  align-items: center;
+  align-content: center;
+  gap: 5px;
+}
+
+.massey {
+  width: 40px;
+  height: 40px;
+}
+
+#tutorials h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  
+}
+
+#membership{
+  background-color: black;
+}
+
+.membership {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 10px;
+ 
+}
+
+/* .members {
+  width: 150px;
+  height: 100px;
+} */
+
+#membership h2 {
+  text-align: center;
+}
+ 
+#membership button {
+  color: navy;
+  text-align: center;
+  background-color: rgb(235, 31, 204);
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+ 
+}
+
