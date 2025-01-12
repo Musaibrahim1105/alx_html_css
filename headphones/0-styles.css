@@ -2,8 +2,10 @@
 body {
     background-image: url("headphones_hero_1.jpg");
     background-size: cover;
+    background-position: center;
     color: white;
     font-family: 'poppins', serif;
+    margin: 0 auto;
 }
 
 nav  {
@@ -29,12 +31,67 @@ nav a {
 
 .logo {
     margin-left: 150px;
+    width: 200px;
 }
 
 
 .handburger {
+   
+    display: none;
+}
+
+/* MAIN.SLOGAN SECTION */
+
+.slogan {
+   display: block;
+   align-items: center;
+   text-align: center;
+   margin: 250px 100px; 
+}
+
+.slogan h1 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.slogan .p-1 {
+    font-weight: bold;
+   
+}
+.slogan button {
+    padding: 15px 20px;
+    background-color: #ff6469;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    margin-top: 50px;
+}
+
+.slogan .p-2 {
+    margin-top: 80px;
+    
+}
+
+
+@media (max-width:600px) {
+
+   nav a:not(:first-child){
+    display: none;
+   }
+
+   .handburger{
     width: 30px;
     height: 30px;
-    display: none;
+    display: block;
+    color: bisque;
+    position: relative;
+    margin-left: 20px;
+   }
+
+   nav {
+    justify-content: space-between;
+}
+    
+
 }
 
